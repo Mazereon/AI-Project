@@ -7,6 +7,6 @@ Node class contains label and heuristic values (F,G,H). Also contains an array o
 that contain the target node and weight. <br/>
 Edge class contains the target node and edge weight <br/>
 Graph class contains the a-star/greedy algorithm <br/>
-   Both uses PriorityQueue to be able to pick the lowest number. <br/>
-   Both uses an explored list to keep track of visited nodes. <br/>
-   A-star uses the formula f=g+h to evaluate nodes while greedy only looks at f=h <br/>
+  * Both uses PriorityQueue to be able to pick the lowest number. <br/>
+  * Both uses an explored list to keep track of visited nodes. <br/>
+  * A-star uses the formula f=g+h to evaluate nodes while greedy only looks at f=h <br/>
